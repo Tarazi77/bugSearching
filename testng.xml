@@ -4,7 +4,7 @@
 <suite name="Guru99 Bank" parallel="tests" >
     <test name="L" >
         <classes >
-            <class name="tests.LoginTest" />
+            <class name="LoginTest" />
         </classes>
     </test>
 </suite>
