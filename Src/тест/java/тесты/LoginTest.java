@@ -16,7 +16,7 @@ import pages.*;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class LoginTest {
+public  class LoginTest{
     WebDriver driver;
 
     @BeforeSuite
