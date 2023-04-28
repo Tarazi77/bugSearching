@@ -19,7 +19,6 @@ public  class LoginTest{
 
     @BeforeSuite
     public void setUp(){
-        WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
