@@ -28,8 +28,8 @@ public  class LoginTest{
     public void loginTest(){
         driver.get("https://demo.guru99.com/v4");
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.fillUserID("mngr486048");
-        loginPage.fillPassword("etYbade");
+        loginPage.fillUserID("mngr48wer");
+        loginPage.fillPassword("etYbadeer");
         loginPage.clickLoginBtn();
     }
 
