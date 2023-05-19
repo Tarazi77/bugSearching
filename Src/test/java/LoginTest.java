@@ -31,8 +31,7 @@ public  class LoginTest{
         loginPage.fillUserID("mngr48wer");
         loginPage.fillPassword("etYbadeer");
         loginPage.clickLoginBtn();
-    }
-
+   
     
 
     @Test
